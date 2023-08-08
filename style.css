@@ -1,3 +1,122 @@
-body {
-  background-color: #a2b9bc;
+nav {
+  background-color: #ffffff;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 60px;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  margin-top: 15px;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+li {
+  padding: 10px 20px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#Home {
+  height: 100vh;
+  margin-top: 10%;
+}
+
+.home-part-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+}
+
+.home-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-img {
+  height: 20rem;
+  border-radius: 240px;
+  border: 5px solid #c3d5d7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon {
+  height: 25px;
+  padding: 0 20px;
+}
+
+.home-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.btn {
+  background-color: #c3d5d7;
+  padding: 10px 40px;
+  margin: 60px 20px 0;
+  border-radius: 20px;
+  border: none;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+.card-link {
+  display: flex;
+  padding: 0 47px 0 85px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.icon-2 {
+  height: 20px;
+  padding: 0 10px;
+}
+
+.link {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#contact {
+  margin: 5rem 18rem;
+  text-align: center;
+}
+
+.contact-data {
+  display: flex;
+}
+
+.personal-data {
+  padding: 30px 5px 0 0px;
+}
+
+.contact-value {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */

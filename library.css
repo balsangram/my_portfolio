@@ -1,1 +1,46 @@
-/*# sourceMappingURL=library.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 0 20%;
+}
+
+.card {
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img {
+  height: 20rem;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.card-content {
+  padding: 20px;
+  width: 27rem;
+  text-align: center;
+}
+
+.btn {
+  background-color: aqua;
+  padding: 10px 40px;
+  margin: 40px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+h1 {
+  padding-bottom: 20px;
+}/*# sourceMappingURL=library.css.map */
